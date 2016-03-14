@@ -14,11 +14,6 @@ from getpass import getpass
 def show_usage():
     print "python %s <starbucks_account>" % sys.argv[0]
 
-"""
-if len(sys.argv) != 2:
-    show_usage()
-    exit(1)
-"""
 MOBILE_TYPE, NOTEBOOK_TYPE, TABLET_TYPE = (1, 2, 3)
 DEFAULT_TYPE = NOTEBOOK_TYPE
 
